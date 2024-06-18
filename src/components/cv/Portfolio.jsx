@@ -135,7 +135,7 @@ const Project = ({ project }) => {
               Roles: {project?.roles?.join?.(", ")}
             </Text>
             <Text mb="3" fontWeight={"bold"}>
-              Teach: {project?.tech?.join?.(", ")}
+              Tech: {project?.tech?.join?.(", ")}
             </Text>
             <Text mb="3">{project?.desc}</Text>
             <Divider h={30} />
