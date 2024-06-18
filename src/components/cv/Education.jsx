@@ -25,7 +25,7 @@ const Education = () => {
                 <div class="c-timeline__end  t-border-color"></div>
 
                 <div class="c-timeline__item">
-                  <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                  <div class="c-timeline__point  t-timeline__point  "></div>
                   <div class="o-content">
                     <div class="o-grid">
                       <div class="o-grid__col-md-5">
