@@ -85,7 +85,7 @@ const Expertise = () => {
                     <div class="c-number  t-primary-color">05</div>
                   </div>
                   <div class="o-media__body  o-content__body">
-                    <h3>WordPress</h3>
+                    <h3>PHP/MySQL / WordPress</h3>
                     <p>
                       Has many years of experience developing themes and plugins
                       for WordPress. Can code, modify, add new functions for
