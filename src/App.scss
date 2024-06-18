@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Norican&family=Platypi:ital,wght@0,600;1,600&display=swap");
 
+@mixin for_mobile {
+  @media (max-width: 700px) {
+    @content;
+  }
+}
+
 body {
   background: #f8fafc;
   font-family: "Montserrat", sans-serif;
@@ -15,6 +21,11 @@ body {
   width: 100%;
   max-width: 1300px;
   margin: 4em auto;
+  @include for_mobile() {
+    margin: 0;
+    padding: 4em 2em;
+  }
+
   gap: 3em;
   flex-direction: column;
 
@@ -34,12 +45,22 @@ body {
 .o-section__container {
   display: flex;
   gap: 2em;
+  @include for_mobile() {
+    flex-direction: column;
+  }
   .o-section__header {
     flex-basis: 30%;
+    @include for_mobile() {
+      flex-basis: 100%;
+      text-align: left;
+    }
     text-align: right;
   }
   .o-section__content {
     flex-basis: 70%;
+    @include for_mobile() {
+      flex-basis: 100%;
+    }
   }
 }
 
@@ -94,6 +115,7 @@ body {
     .c-number {
       font-size: 3em;
       font-family: "Platypi", serif;
+      color: var(--chakra-colors-blue-500);
     }
   }
 }

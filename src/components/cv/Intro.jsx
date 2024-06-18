@@ -45,6 +45,9 @@ const Intro = () => {
                           Web Developer &amp; Front-end Expert
                         </span>
                       </h2>
+                      <a href="https://shrimp2t.github.io/">
+                        shrimp2t.github.io
+                      </a>
                     </div>
                   </div>
 

@@ -23,10 +23,10 @@ const Expertise = () => {
                     <div class="c-number  t-primary-color">01</div>
                   </div>
                   <div class="o-media__body  o-content__body">
-                    <h3>Advanced CSS/SCSS</h3>
+                    <h3>JavaScript/ Node /React/ JS Frameworks</h3>
                     <p>
-                      Proficient in CSS/SASS can make perfect pixels interface
-                      as in photoshop or frigma designs,..
+                      Proficient in JS and JS libraries such as jQuery, ReactJS,
+                      NodeJS... Able to learn new JS framework quickly.
                     </p>
                   </div>
                 </div>
@@ -101,10 +101,10 @@ const Expertise = () => {
                     <div class="c-number  t-primary-color">06</div>
                   </div>
                   <div class="o-media__body  o-content__body">
-                    <h3>JavaScript / Frameworks</h3>
+                    <h3>Advanced CSS/SCSS</h3>
                     <p>
-                      Proficient in JS and JS libraries such as jQuery, ReactJS,
-                      NodeJS... Able to learn new JS framework quickly.
+                      Proficient in CSS/SASS can make perfect pixels interface
+                      as in photoshop or frigma designs,..
                     </p>
                   </div>
                 </div>

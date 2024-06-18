@@ -41,7 +41,6 @@ function App() {
           </div>
         </div>
       </IconContext.Provider>
-      ;
     </ChakraProvider>
   );
 }
