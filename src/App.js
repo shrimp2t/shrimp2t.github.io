@@ -14,12 +14,10 @@ import Skills from "./components/cv/Skills";
 import Experience from "./components/cv/Experience";
 import Education from "./components/cv/Education";
 import Portfolio from "./components/cv/Portfolio";
-import Links from "./components/cv/Links";
-import Contact from "./components/cv/Contact";
+// import Links from "./components/cv/Links";
+// import Contact from "./components/cv/Contact";
 
-import { Button, ButtonGroup, Wrap } from "@chakra-ui/react";
 
-import { IoBonfireSharp } from "react-icons/io5";
 
 function App() {
   return (
@@ -28,13 +26,19 @@ function App() {
         <div className="app">
           <div class="app-cont c-main-container">
             <Intro />
-            <Summary />
 
-            <Expertise />
-            <Skills />
-            <Experience />
-            <Portfolio />
-            <Education />
+
+            <div className="main-wrap">
+              <div className="main-cont">
+                <Summary />
+                <Expertise />
+                <Skills />
+                <Portfolio />
+                <Experience />
+                
+                <Education />
+              </div>
+            </div>
 
             {/* <Links /> */}
             {/* <Contact /> */}
