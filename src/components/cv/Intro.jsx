@@ -55,7 +55,7 @@ const Intro = () => {
                     <li class="a-header in-view" data-sr-id="6">
                       <span class="c-social-button  t-social-button">
                         <IoCalendarSharp />
-                        BOD: 12/1989
+                        12/1989
                       </span>
                     </li>
                     <li class="a-header in-view" data-sr-id="6">
