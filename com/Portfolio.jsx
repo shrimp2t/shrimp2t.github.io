@@ -125,9 +125,9 @@ const Portfolio = () => {
               alt=""
               className="aspect-16/9 object-cover border-1 border-gray-300 rounded-md"
             />
-            <div>{p.title}</div>
+            <div className="font-medium">{p.title}</div>
             <div className="text-sm text-blue-500">{p.roles.join(", ")}</div>
-            <div className="text-sm text-gray-600 italic">{p.desc}</div>
+            <div className="text-sm text-gray-500 italic">{p.desc}</div>
           </div>
         ))}
       </div>

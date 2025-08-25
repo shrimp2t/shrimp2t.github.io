@@ -22,9 +22,9 @@ const Education = () => {
             return (
               <div className="flex flex-col gap-2" key={i}>
                 <div>{item.time}</div>
-                <div>{item.title}</div>
+                <div className="font-medium">{item.title}</div>
                 <div>{item.loc}</div>
-                <div>{item.desc}</div>
+                <div className="text-gray-500 italic">{item.desc}</div>
               </div>
             );
           })}

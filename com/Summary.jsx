@@ -9,7 +9,7 @@ const Summary = () => {
       <div className="w-full md:w-8/12">
         <div className="">
           <p>
-            Web Developer & Front-end Expert with 6+ years of experience
+            Web Developer & Front-end Expert with 8+ years of experience
             building high-performance websites and scalable systems. Specialized
             in crafting seamless UI/UX, developing robust e-commerce platforms,
             and optimizing applications for speed and reliability. Experienced

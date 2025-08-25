@@ -54,10 +54,10 @@ const Works = () => {
                 key={i}
               >
                 <div>{item.time}</div>
-                <div>{item.title}</div>
-                <div>{item.pos}</div>
+                <div className="font-bold">{item.title}</div>
+                <div className="italic font-medium">{item.pos}</div>
                 <div>{item.loc}</div>
-                <div>{item.desc}</div>
+                <div className="text-gray-500 italic">{item.desc}</div>
               </div>
             );
           })}

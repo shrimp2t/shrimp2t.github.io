@@ -1,49 +1,86 @@
 import { Progress } from "@/components/ui/progress";
+import { type } from "os";
+import { title } from "process";
 
 const list = [
   {
-    title: "PHP/MySQL",
+    title: "Back-end",
+    type: "heading",
+  },
+  {
+    title: "PHP/MySQL/WordPress",
     score: 9,
+  },
+  {
+    title: "NodeJs/ExpressJS/NextJs",
+    score: 8,
+  },
+  {
+    title: "MongoDB",
+    score: 8,
   },
 
   {
-    title: "JAVASCRIPT",
+    title: "Front-end",
+    type: "heading",
+  },
+
+  {
+    title: "JavaScript",
+    score: 9,
+  },
+  {
+    title: "HTML5, CSS, SCSS",
     score: 8,
   },
   {
-    title: "HTML, CSS, SCSS",
-    score: 8,
-  },
-  {
-    title: "Node JS",
-    score: 8,
-  },
-  {
-    title: "React JS",
-    score: 8,
-  },
-  {
-    title: "MongoDB,Postgresql",
-    score: 8,
-  },
-  {
-    title: "Git, SVN",
-    score: 8,
-  },
-  {
-    title: "Hosting & Server",
-    score: 8,
-  },
-  {
-    title: "CSS3 Animation",
-    score: 8,
+    title: "React & Libraries: heroui, shadcn ant-design, chakraui,...",
+    score: 9,
   },
   {
     title: "PageSpeed Insights",
     score: 8,
   },
   {
+    title: "Tools & DevOps",
+    type: "heading",
+  },
+
+  {
+    title: "Git, SVN",
+    score: 8,
+  },
+  {
+    title: "Hosting & Linux Server",
+    score: 8,
+  },
+
+  {
     title: "SEO",
+    score: 8,
+  },
+  {
+    title: "CI/CD basics",
+    score: 7,
+  },
+  {
+    title: "Others",
+    type: "heading",
+  },
+  {
+    title: "Crawler System",
+    score: 8,
+  },
+  {
+    title: "Browser Fingerprint",
+    score: 8,
+  },
+  {
+    title: "Chrome Extension",
+    score: 8,
+  },
+  {
+    title: "E-Commerce",
     score: 8,
   },
   {
@@ -61,8 +98,16 @@ const Skills = () => {
       </div>
 
       <div className="w-full md:w-8/12">
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-3">
           {list.map((item, i) => {
+            if (item.type === "heading") {
+              return (
+                <div key={i} className="not-first:mt-5">
+                  <h3 className="text-lg font-bold font-mono">{item.title}</h3>
+                </div>
+              );
+            }
+
             return (
               <div key={i}>
                 <div className=" text-lg flex gap-5 items-center">
