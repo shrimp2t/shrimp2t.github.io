@@ -66,7 +66,7 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className="meta flex justify-center gap-5 leading-0 text-gray-600">
+      <div className="meta flex flex-col md:flex-row justify-center gap-3 leading-0 text-gray-600">
         <div className="flex flex-row items-center gap-1">
           <div className="text-gray-600 ">
             <IconMapPin />

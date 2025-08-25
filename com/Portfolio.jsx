@@ -111,13 +111,13 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <section className="flex flex-row gap-4">
-      <div className="w-4/12">
+    <section className="flex flex-col gap-4 md:flex-row px-3">
+      <div className="w-full md:w-4/12">
         <h2 className="text-2xl font-bold font-mono">Portfolio</h2>
         <div className="text-sm">Some projects you may like.</div>
       </div>
 
-      <div className="w-8/12 grid grid-cols-2 gap-4">
+      <div className="w-full md:w-8/12 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4">
         {projects.map((p, i) => (
           <div className="flex flex-col gap-1" key={i}>
             <img

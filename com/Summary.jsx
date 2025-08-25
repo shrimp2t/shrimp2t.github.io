@@ -1,12 +1,12 @@
 const Summary = () => {
   return (
-    <section className="flex flex-row gap-4">
-      <div className="w-4/12">
+    <section className="flex flex-col gap-4 md:flex-row px-3">
+      <div className="w-full md:w-4/12">
         <h2 className="text-2xl font-bold font-mono">Summary</h2>
         <div className="text-sm">What I am all about.</div>
       </div>
 
-      <div className="w-8/12">
+      <div className="w-full md:w-8/12">
         <div className="">
           <p>
             Web Developer & Front-end Expert with 6+ years of experience
