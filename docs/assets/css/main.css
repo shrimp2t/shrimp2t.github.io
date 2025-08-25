@@ -1,0 +1,20 @@
+
+
+@media (min-width: 1024px) {
+  .o-section {
+    position: relative;
+  }
+  .o-section__container {
+    z-index: 2;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .o-section__header {
+    width: 30%;
+    text-align: right;
+  }
+  .o-section__content {
+    width: 70%;
+  }
+}
