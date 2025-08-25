@@ -51,6 +51,10 @@ const list = [
     score: 8,
   },
   {
+    title: "Redis, Docker",
+    score: 7,
+  },
+  {
     title: "Hosting & Linux Server",
     score: 8,
   },
@@ -80,8 +84,12 @@ const list = [
     score: 8,
   },
   {
-    title: "E-Commerce",
+    title: "E-Commerce, Fulfillment",
     score: 8,
+  },
+  {
+    title: "AWS",
+    score: 6,
   },
   {
     title: "English",
