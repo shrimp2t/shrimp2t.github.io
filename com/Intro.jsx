@@ -15,7 +15,7 @@ import { TypeAnimation } from "react-type-animation";
 const Intro = () => {
   return (
     <section className=" flex flex-col items-center justify-center w-full gap-2">
-      <Avatar className="size-[190px]">
+      <Avatar className="size-[190px] border-6 border-blue-500">
         <AvatarImage src="/assets/avatar.jpeg" alt="Trường Sa" />
       </Avatar>
       <h1 className="text-5xl font-bold">Trường Sa</h1>
